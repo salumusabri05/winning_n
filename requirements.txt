@@ -8,3 +8,5 @@ tk
 gradio
 watchdog
 azure-cognitiveservices-speech
+streamlit 
+streamlit-webrtc
