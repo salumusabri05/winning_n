@@ -19,7 +19,7 @@ speech_config.speech_synthesis_voice_name = "sw-KE-ZuriNeural"
 synthesizer = speechsdk.SpeechSynthesizer(speech_config=speech_config)
 
 # === Load model and labels ===
-model = joblib.load('model/mlp_tsl_static.pkl')
+model = joblib.load('mlp_tsl_static.pkl')
 le = LabelEncoder()
 le.fit([chr(i) for i in range(ord('A'), ord('Z') + 1)])
 
